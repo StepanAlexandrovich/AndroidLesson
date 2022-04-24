@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <EditText
+        style="@style/editText"
+        android:id="@+id/editText"
+        android:inputType="text"
+        android:hint="Введите текст"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        style="@style/editText"
+        android:inputType="textPersonName"
+        android:hint="Введите имя" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        style="@style/editText"
+        android:inputType="phone"
+        android:hint="Введите номер телефона"/>
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        style="@style/editText"
+        android:inputType="number"
+        android:hint="Введите ваш порядковый номер"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        style="@style/editText"
+        android:inputType="textPassword"
+        android:hint="Введите пароль"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        style="@style/editText"
+        android:inputType="textEmailAddress"
+        android:hint="Введите свою почту"/>
+
+
+</LinearLayout>
