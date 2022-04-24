@@ -8,45 +8,40 @@
     tools:context=".MainActivity2">
 
     <EditText
-        style="@style/elements"
+        style="@style/editText"
         android:id="@+id/editText"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:hint="Введите текст"/>
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
+        style="@style/editText"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Введите имя" />
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone" />
+        style="@style/editText"
+        android:inputType="phone"
+        android:hint="Введите номер телефона"/>
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number" />
+        style="@style/editText"
+        android:inputType="number"
+        android:hint="Введите ваш порядковый номер"/>
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword" />
+        style="@style/editText"
+        android:inputType="textPassword"
+        android:hint="Введите пароль"/>
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress" />
+        style="@style/editText"
+        android:inputType="textEmailAddress"
+        android:hint="Введите свою почту"/>
 
 
 </LinearLayout>
